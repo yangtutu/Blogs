@@ -45,3 +45,5 @@
 - [动手学深度学习](http://zh.gluon.ai/)
 
 - [mxnet api doc](https://mxnet.apache.org/api/python/docs/api/)
+
+- [Build a Command Line Interface(CLI) Program with .NET Core](https://medium.com/swlh/build-a-command-line-interface-cli-program-with-net-core-428c4c85221)
