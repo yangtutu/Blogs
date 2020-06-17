@@ -19,3 +19,29 @@
 - [freenom](https://www.freenom.com/en/index.html?lang=en)
 
 - [extremeprogramming](http://www.extremeprogramming.org/)
+
+- [RabbitMQ](https://www.rabbitmq.com/getstarted.html)
+
+- [Kubernetes Serverless - fission](https://fission.io/)
+
+- [jupyter](https://jupyter.org)
+
+- [Win10 VSCode Vue](https://blog.csdn.net/junshangshui/article/details/80376489)
+
+- [iconfont](https://www.iconfont.cn)
+
+- [freessl](https://freessl.cn)
+
+- [CentOS Jenkins](https://www.cnblogs.com/stulzq/p/9291237.html)
+
+- [Google SRE](https://landing.google.com/sre/sre-book/toc/index.html)
+
+- [Checkpointing Tutorial for TensorFlow, Keras, and PyTorch](https://blog.floydhub.com/checkpointing-tutorial-for-tensorflow-keras-and-pytorch/)
+
+- [SciSharp](https://scisharp.github.io/SciSharp/)
+
+- [深度学习 吴恩达](https://www.bilibili.com/video/av49445369/)
+
+- [动手学深度学习](http://zh.gluon.ai/)
+
+- [mxnet api doc](https://mxnet.apache.org/api/python/docs/api/)
