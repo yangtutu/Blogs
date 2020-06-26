@@ -70,6 +70,77 @@
 
 <br />
 
+## 代码块
+
+- 行内式
+
+  演示各种编程语言的`Hello World`程序
+
+- 包裹式
+
+  - Java
+  
+  ```java
+  public class HelloWorld  
+  {  
+      public static void main(String[] args)  
+      {    
+          System.out.println("Hello,World!");  
+      }  
+  }  
+  ```
+  
+  - C
+  ```c
+  #include <stdio.h>  
+  int main()
+  {  
+      printf("Hello,World!");
+      return 1;
+  }
+  ```
+  
+  - C++
+  ```cpp
+  #include <iostream>  
+  #include <stdio.h>
+  
+  int main()  
+  {  
+      printf("Hello,World!--Way 1\n");  
+      puts("Hello,World!--Way 2");  
+      puts("Hello," " " "World!--Way 3");  
+      std::cout << "Hello,World!--Way 4" << std::endl;  
+      return 1;  
+  } 
+  ```
+
+  - Python
+  ```python 
+  print "Hello,World!"   #Python 2.x
+  print("Hello,World!")  #Python 3.x
+  ```
+
+  - C#
+  ```csharp 
+  using System;  
+  class TestApp  
+  {  
+      public static void Main()  
+      {  
+        Console.WriteLine("Hello,World!");  
+        Console.ReadKey();  
+      }  
+  } 
+  ```
+
+  - Shell
+  ```bash 
+  echo "Hello,World!"
+  ```
+  
+<br />
+
 ## 列表
 
 ### 无序列表
