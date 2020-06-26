@@ -99,7 +99,7 @@ frp是一个可用于内网穿透的高性能的反向代理应用。借助中�
 
 - 安装
 
-下载地址：[https://github.com/fatedier/frp/releases/download/v0.31.1/frp_0.31.1_windows_amd64.zip](https://github.com/fatedier/frp/releases/download/v0.31.1/frp_0.31.1_windows_amd64.zip)
+  下载地址：[https://github.com/fatedier/frp/releases/download/v0.31.1/frp_0.31.1_windows_amd64.zip](https://github.com/fatedier/frp/releases/download/v0.31.1/frp_0.31.1_windows_amd64.zip)
 
 - 配置文件frpc.ini
 
