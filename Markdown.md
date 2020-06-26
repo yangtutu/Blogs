@@ -56,8 +56,11 @@
 <br />
 
 ## 超链接
-- [GitHub有title](https://github.com/ "Github")  
-- [GitHub无title](https://github.com/)
+- [GitHub - 有title](https://github.com/ "Github")  
+- [GitHub - 无title](https://github.com/)
+- [GitHub - 参考式][1]
+
+[1]:https://github.com/
 
 <br />
 
