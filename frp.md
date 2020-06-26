@@ -55,7 +55,7 @@ frp是一个可用于内网穿透的高性能的反向代理应用。借助中�
 - 启动
 
   ```bash
-  frps -c frps.ini
+  ./frps -c frps.ini
   ```
 
 - 设置开机启动
@@ -136,12 +136,52 @@ frp是一个可用于内网穿透的高性能的反向代理应用。借助中�
   frpc -c frpc.ini
   ```
 
-- 远程
+- 远程mstsc
 
   在其它Windows机器上通过`远程桌面`，使用服务器公网IP或域名+映射端口即可远程此Windows机器。
   
 ## Linux 远程
 
+- 配置文件frpc.ini
+
+  ```bash
+  [common]
+  # 服务器公网IP或域名 
+  server_addr = {your server address}
+  
+  # 要绑定的端口，和服务端一致
+  server_port = 7000
+  
+  # 安全授权 token，和服务端一致
+  token = {your token}
+
+  [ssh]
+  # 协议，使用tcp
+  type = tcp
+  
+  # 本机IP
+  local_ip = 127.0.0.1
+  
+  # ssh端口，默认22
+  local_port = 22
+  
+  # 映射端口（公网访问端口），不能和远程端口相同
+  remote_port = {your remote port}
+  ```
+
+- 启动
+  
+  ```bash
+  ./frpc -c frpc.ini
+  ```
+
+- 远程ssh
+
+  在其它Linux机器上执行：
+  ```bash
+  ssh {user}@{服务器公网IP或域名} -p {映射端口}
+  ```
+  
 ## 网站映射
 
   - 配置文件frpc.ini
