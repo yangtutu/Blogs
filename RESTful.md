@@ -47,14 +47,14 @@ REST是`Re`presentational `S`tate `T`ransfer的缩写，是Roy Thomas Fielding�
 - 请求体与响应体统一通过json格式来承载，json使用Camel的命名规则，媒体类型需设置为“application/json”
 
   示例：
-```
-Request
-  Accept: application/json
-  Content-Type: application/json
-
-Response
-  Content-Type: application/json
-```
+  ```
+  Request
+    Accept: application/json
+    Content-Type: application/json
+  
+  Response
+    Content-Type: application/json
+  ```
 
 - 请求体与响应体统一采用UTF-8编码格式，时间统一使用UTC格式：yyyy-MM-dd'T'HH:mm:ss[.SSS]'Z'或Unix时间戳
 
@@ -79,18 +79,18 @@ Response
 
   示例：
   
-```json
-Response Body
-{
-  "total": 123,
-  "pageIndex": 1,
-  "pageSize":20,
-  "records":[
-    { "id": "xxx", "name":"xxx" },
-    { "id": "xxx", "name":"xxx" }
-  ]
-}
-```
+   ```json
+   Response Body
+   {
+     "total": 123,
+     "pageIndex": 1,
+     "pageSize":20,
+     "records":[
+       { "id": "xxx", "name":"xxx" },
+       { "id": "xxx", "name":"xxx" }
+     ]
+   }
+   ```
 
 - 获取指定资源成功返回`200`，响应消息体中包含该资源的信息
 
@@ -98,14 +98,14 @@ Response Body
 
   示例：
   
-```
-Response Headers
-  pragma: no-cache
-  server: xxx
-  content-type: application/json; charset=utf-8
-  location: https://xxx/api/users/xxx # 资源访问地址
-  content-length: xxx
-```
+  ```
+  Response Headers
+    pragma: no-cache
+    server: xxx
+    content-type: application/json; charset=utf-8
+    location: https://xxx/api/users/xxx # 资源访问地址
+    content-length: xxx
+  ```
 
 - 资源更新成功返回`200`，并在响应消息中体返回更新后的资源内容
 
@@ -115,63 +115,63 @@ Response Headers
 
   示例：
 
-```json
-Response Code
-400 Bad Request
-Response Body
-{
-  "code": 400001,
-  "message": "用户名或密码错误"
-}
-
-{
-  "code": 400002,
-  "message": "邮箱已存在"
-}
-
-{
-  "code": 400003,
-  "message": "邮箱地址错误"
-}
-```
+  ```json
+  Response Code
+  400 Bad Request
+  Response Body
+  {
+    "code": 400001,
+    "message": "用户名或密码错误"
+  }
+  
+  {
+    "code": 400002,
+    "message": "邮箱已存在"
+  }
+  
+  {
+    "code": 400003,
+    "message": "邮箱地址错误"
+  }
+  ```
 
 - 针对`5XX`的服务端错误，只在响应消息体中提供简单提示，不可打印错误日志信息
 
   示例：
   
-```json
-Response Body
-{
-  "message": "内部错误，请稍后再试或联系管理员"
-}
-```
+  ```json
+  Response Body
+  {
+    "message": "内部错误，请稍后再试或联系管理员"
+  }
+  ```
 
 - 其他客户端错误的响应码，只在响应消息体中提供相应提示
 
   示例：
   
-```json
-Response Code
-401 Unauthorized
-Response Body
-{
-  "message": "用户未登录"
-}
-
-Response Code
-403 Forbidden
-Response Body
-{
-  "message": "权限不足"
-}
-
-Response Code
-404 Not Found
-Response Body
-{
-  "message": "请求资源不存在或已被删除"
-}
-```
+  ```json
+  Response Code
+  401 Unauthorized
+  Response Body
+  {
+    "message": "用户未登录"
+  }
+  
+  Response Code
+  403 Forbidden
+  Response Body
+  {
+    "message": "权限不足"
+  }
+  
+  Response Code
+  404 Not Found
+  Response Body
+  {
+    "message": "请求资源不存在或已被删除"
+  }
+  ```
 
 <br />
 
