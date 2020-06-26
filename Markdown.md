@@ -59,6 +59,7 @@
 - [GitHub - 有title](https://github.com/ "Github")  
 - [GitHub - 无title](https://github.com/)
 - [GitHub - 参考式][1]
+- 直接使用 - <https://github.com/>
 
 [1]:https://github.com/
 
