@@ -97,5 +97,48 @@ frp是一个可用于内网穿透的高性能的反向代理应用。借助中�
 
 ## Windows远程
 
+- 安装
+
+下载地址：[https://github.com/fatedier/frp/releases/download/v0.31.1/frp_0.31.1_windows_amd64.zip](https://github.com/fatedier/frp/releases/download/v0.31.1/frp_0.31.1_windows_amd64.zip)
+
+- 配置文件frpc.ini
+
+  ```bash
+  [common]
+  # 服务器公网IP或域名 
+  server_addr = {your server address}
+  
+  # 要绑定的端口，和服务端一致
+  server_port = 7000
+  
+  # 安全授权 token，和服务端一致
+  token = {your token}
+
+  [rdp]
+  # 协议，使用tcp
+  type = tcp
+  
+  # 本机IP
+  local_ip = 127.0.0.1
+  
+  # 远程桌面端口，默认3389
+  local_port = 3389
+  
+  # 映射端口（公网访问端口），不能和远程端口相同
+  remote_port = {your remote port}
+  ```
+  
+- 启动
+
+  使用`cmd`或`powershell`，执行如下指令：
+  
+  ```bash
+  frpc -c frpc.ini
+  ```
+
+- 远程
+
+  在其它Windows机器上通过`远程桌面`，使用服务器公网IP或域名+映射端口即可远程此Windows机器。
+  
 ## Linux 远程
 
