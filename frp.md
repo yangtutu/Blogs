@@ -142,3 +142,44 @@ frp是一个可用于内网穿透的高性能的反向代理应用。借助中�
   
 ## Linux 远程
 
+## 网站映射
+
+  - 配置文件frpc.ini
+
+  ```bash
+  [common]
+  # 服务器公网IP或域名 
+  server_addr = {your server address}
+  
+  # 要绑定的端口，和服务端一致
+  server_port = 7000
+  
+  # 安全授权 token，和服务端一致
+  token = {your token}
+
+  [http]
+  # 协议，使用http
+  type = http
+  
+  # 本机IP
+  local_ip = 127.0.0.1
+  
+  # 网站http端口，默认80
+  local_port = 80
+  
+  # 域名，需要解析到服务器
+  custom_domains = {your domain}
+  
+  [https]
+  # 协议，使用https
+  type = https
+  
+  # 本机IP
+  local_ip = 127.0.0.1
+  
+  # 网站https端口，默认443
+  local_port = 443
+  
+  # 域名，需要解析到服务器
+  custom_domains = {your domain}
+  ```
