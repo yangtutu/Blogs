@@ -52,4 +52,6 @@
 
 - [GitHub Markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 
+- [xUint Test Order Official](https://docs.microsoft.com/en-us/dotnet/core/testing/order-unit-tests?pivots=xunit)
+
 - [xUint Test Order](https://hamidmosalla.com/2018/08/16/xunit-control-the-test-execution-order/)
