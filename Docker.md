@@ -18,9 +18,11 @@ sudo yum remove docker \
 # Set up the repository
 sudo yum install -y yum-utils
 
-# Install docker engine
 sudo yum-config-manager \
   --add-repo \
   https://download.docker.com/linux/centos/docker-ce.repo
+  
+# Install docker engine
+sudo yum install docker-ce docker-ce-cli containerd.io -y
 ```
 
