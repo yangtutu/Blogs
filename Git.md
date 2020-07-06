@@ -21,6 +21,7 @@ git config --global user.email "{your email}"
 在.gitconfig文件中，添加以下内容：
 
 ```bash
+[alias]
 st = status
 ci = commit
 co = checkout
