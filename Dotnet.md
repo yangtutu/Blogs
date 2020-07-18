@@ -1,5 +1,19 @@
 # .Net Core
 
+## Install
+
+- CentOS 7
+
+  ```bash
+  sudo rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm
+  
+  # Install SDK
+  sudo yum install dotnet-sdk-3.1
+  
+  # Install runtime
+  sudo yum install aspnetcore-runtime-3.1
+  ```
+
 ## .Net Core Interactive for Jupyter Lab
 
 - Dockerfile
