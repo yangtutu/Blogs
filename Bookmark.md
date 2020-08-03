@@ -32,7 +32,7 @@
 
 - [freessl](https://freessl.cn)
 
-- [windows上快速生成tree状目录结构](https://www.jianshu.com/p/f3268b1ab7d8)
+- [CentOS Jenkins](https://www.cnblogs.com/stulzq/p/9291237.html)
 
 - [Google SRE](https://landing.google.com/sre/sre-book/toc/index.html)
 
@@ -58,4 +58,4 @@
 
 - [Envoy Http Filter](https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/lua_filter)
 
-- [Envoy Http Filter](https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/lua_filter)
+- [windows上快速生成tree状目录结构](https://www.jianshu.com/p/f3268b1ab7d8)
