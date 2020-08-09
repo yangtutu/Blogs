@@ -59,3 +59,5 @@
 - [Envoy Http Filter](https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/lua_filter)
 
 - [windows上快速生成tree状目录结构](https://www.jianshu.com/p/f3268b1ab7d8)
+
+- [PyTorch基础——使用神经网络识别文字中的情感信息](https://www.cnblogs.com/wwj99/p/12193627.html)
