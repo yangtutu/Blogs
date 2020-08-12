@@ -61,3 +61,7 @@
 - [windows上快速生成tree状目录结构](https://www.jianshu.com/p/f3268b1ab7d8)
 
 - [PyTorch基础——使用神经网络识别文字中的情感信息](https://www.cnblogs.com/wwj99/p/12193627.html)
+
+- [redis-benchmark](https://redis.io/topics/benchmarks)
+
+- [memtier_benchmark](https://github.com/RedisLabs/memtier_benchmark)
