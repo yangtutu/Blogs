@@ -54,3 +54,10 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 点击`Manage Jenkins` -> 点击`Manage Plugins` -> 点击`Advanced` -> 把`Update Site`中的`URL`修改为`http://mirror.esuni.jp/jenkins/updates/update-center.json`
 
 原值为：`https://updates.jenkins.io/update-center.json`
+
+- 添加环境变量PATH
+
+点击`Manage Jenkins` -> 点击`Configure System` -> 在`Global properties`下勾选`Environment variables`，添加以下内容
+
+Name: PATH  
+Value: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/.dotnet/tools:/root/bin
