@@ -48,3 +48,9 @@ systemctl start jenkins
 ```bash
 cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
+
+- 修改插件源
+
+点击`Manage Jenkins` -> 点击`Manage Plugins` -> 点击`Advanced` -> 把`Update Site`中的`URL`修改为`http://mirror.esuni.jp/jenkins/updates/update-center.json`
+
+原值为：`https://updates.jenkins.io/update-center.json`
