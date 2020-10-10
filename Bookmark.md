@@ -65,3 +65,7 @@
 - [redis-benchmark](https://redis.io/topics/benchmarks)
 
 - [memtier_benchmark](https://github.com/RedisLabs/memtier_benchmark)
+
+- [keepalived+LVS+nginx搭建高可用负载均衡（一）](https://zhuanlan.zhihu.com/p/156858630)
+
+- [keepalived+LVS+nginx搭建高可用负载均衡（二）](https://zhuanlan.zhihu.com/p/157303195)
