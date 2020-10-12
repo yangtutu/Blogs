@@ -12,8 +12,8 @@
   | ------- | :-----: | :-----: | :-----: | :-----: |:-----: |
   | Free | ✓ | ✓ | X | X | X |
   | OpenSource | ✓ | ✓ | X | X | X |
-  | Symbol Renaming |  |
-  | Overloaded Renaming |  |
+  | Symbol Renaming | ✓ |  ✓ |
+  | Overloaded Renaming | ✓ |   |
   | Method Call Hiding |  |
   | String Encryption |  |
   | Control Flow Obfuscation |  |
@@ -22,5 +22,6 @@
   | Anti-Decompiler |  |
   | Resource Encryption |  |
   | Assembly Encryption |  |
-
+  | Anti Debugging |  |
+  
 ## Anti Debugging
