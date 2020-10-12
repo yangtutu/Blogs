@@ -31,6 +31,16 @@
   
 ## Anti Debugging
 
+Further research...
+
+## Anti Dumping
+
+Further research...
+
+## Network Obfuscation
+
+Further research...
+
 ## Code Deobfuscation
 
 [de4dot](https://github.com/0xd4d/de4dot)
