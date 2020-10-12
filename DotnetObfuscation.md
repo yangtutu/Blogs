@@ -6,6 +6,12 @@
 
   https://github.com/NotPrab/.NET-Obfuscator
 
+- Feature Introduction
+  
+  - [8 Ways To Protect And Obfuscate Your .Net Code Against Reverse-Engineering Using Crypto Obfuscator](https://www.ssware.com/articles/protect-and-obfuscate-your-dotnet-code-against-reverse-engineering-using-crypto-obfuscator.htm)
+
+  - [Babel Obfuscation and Protection](https://www.babelfor.net/products/babel-obfuscator/)
+
 - Feature Comparation
 
   | Component/Features | Obfuscar | ConfuserEx | Babel | Skater | .NET Reactor |
