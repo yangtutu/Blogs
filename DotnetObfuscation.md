@@ -20,10 +20,10 @@
   | OpenSource | ✓ | ✓ | X | X | X |
   | Symbol Renaming | ✓ |  ✓ |
   | Overloaded Renaming | ✓ |   |
-  | Method Call Hiding |  |
-  | String Encryption |  |
-  | Control Flow Obfuscation |  |
-  | ILDASM Suppression |  |
+  | Method Call Hiding | ✓ |
+  | String Encryption | ✓ |
+  | Control Flow Obfuscation | ✓ |
+  | ILDASM Suppression | ✓ |
   | Anti-Reflection |  |
   | Anti-Decompiler |  |
   | Resource Encryption |  |
@@ -31,3 +31,7 @@
   | Anti Debugging |  |
   
 ## Anti Debugging
+
+## Code Deobfuscation
+
+[de4dot](https://github.com/0xd4d/de4dot)
