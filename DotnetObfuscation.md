@@ -8,10 +8,10 @@
 
 - Feature Comparation
 
-  | Component/Features | Obfuscar | Babel | Skater |
-  | ------- | :-----: | :-----: | :-----: |
-  | Free | ✓ | X | X |
-  | OpenSource | ✓ | X | X |
+  | Component/Features | Obfuscar | Babel | Skater | .NET Reactor |
+  | ------- | :-----: | :-----: | :-----: | :-----: |
+  | Free | ✓ | X | X | X |
+  | OpenSource | ✓ | X | X | X |
   | Symbol Renaming |  |
   | Overloaded Renaming |  |
   | Method Call Hiding |  |
