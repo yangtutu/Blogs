@@ -24,10 +24,9 @@
   | String Encryption | ✓ |
   | Control Flow Obfuscation | ✓ |
   | ILDASM Suppression | ✓ |
-  | Anti-Reflection |  |
-  | Anti-Decompiler |  |
+  | Anti-Decompiler | X |
   | Resource Encryption |  |
-  | Assembly Encryption |  |
+  | Assembly Encryption | ✓ |
   | Anti Debugging |  |
   
 ## Anti Debugging
