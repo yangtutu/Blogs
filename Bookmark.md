@@ -69,3 +69,5 @@
 - [keepalived+LVS+nginx搭建高可用负载均衡（一）](https://zhuanlan.zhihu.com/p/156858630)
 
 - [keepalived+LVS+nginx搭建高可用负载均衡（二）](https://zhuanlan.zhihu.com/p/157303195)
+
+- [jupyter notebook无法自动跳转chrome浏览器](https://www.jianshu.com/p/c6e3a440b5e2)
