@@ -66,3 +66,54 @@ Further research...
 * SmartAssembly
 * Spices.Net
 * Xenocode
+
+## Examples
+
+### Obfuscar
+
+- Install global tool
+
+``` bash
+dotnet tool install --global Obfuscar.GlobalTool
+```
+
+- Publish 
+
+``` bash
+# Console
+dotnet publish -c Release -o publish
+
+# WebApi
+dotnet publish -c Release -o publish --self-contained true -r (win-x64|linux-x64|osx-x64)
+```
+
+- Prepare Config
+
+``` xml
+<!--config.xml-->
+<?xml version='1.0'?>
+<Obfuscator>
+  <Var name="InPath" value="." />
+  <Var name="OutPath" value=".\out" />
+  <Var name="KeepPublicApi" value="false" />
+  <Var name="HidePrivateApi" value="true" />
+  <Var name="HideStrings" value="true" />
+  <Var name="ReuseNames" value="true" />
+  <Var name="RenameProperties" value="true" />
+  <Var name="RenameEvents" value="true" />
+  <Var name="RenameFields" value="true" />
+  <Var name="UseUnicodeNames" value="true" />
+  <Var name="OptimizeMethods" value="true" />
+  <Var name="SuppressIldasm" value="true" />
+  <Module file="$(InPath)\{your.dll}" >
+    <!--Please uncomment below for WebApi-->
+    <!--<SkipType name="ObfuscarWebApi.Startup" skipMethods="true" />-->
+  </Module>
+</Obfuscator>
+``` 
+
+- Obfuscate
+
+``` bash
+obfuscar.console config.xml
+``` 
