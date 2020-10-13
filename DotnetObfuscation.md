@@ -14,7 +14,7 @@
 
 - Feature Comparation
 
-  | Component/Features | Obfuscar | ConfuserEx | Babel | Skater | .NET Reactor | Dotfuscator |
+  | Component/Features | [Obfuscar](https://docs.obfuscar.com/) | [ConfuserEx](https://mkaring.github.io/ConfuserEx/) | Babel | Skater | .NET Reactor | Dotfuscator |
   | ------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
   | Free | ✓ | ✓ | X | X | X | X |
   | OpenSource | ✓ | ✓ | X | X | X | X |
