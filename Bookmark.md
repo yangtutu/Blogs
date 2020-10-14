@@ -71,3 +71,7 @@
 - [keepalived+LVS+nginx搭建高可用负载均衡（二）](https://zhuanlan.zhihu.com/p/157303195)
 
 - [jupyter notebook无法自动跳转chrome浏览器](https://www.jianshu.com/p/c6e3a440b5e2)
+
+- [Introducing diagnostics improvements in .NET Core 3.0](https://devblogs.microsoft.com/dotnet/introducing-diagnostics-improvements-in-net-core-3-0/)
+
+- [Collecting and analyzing memory dumps](https://devblogs.microsoft.com/dotnet/collecting-and-analyzing-memory-dumps/)
