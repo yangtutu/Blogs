@@ -75,3 +75,5 @@
 - [Introducing diagnostics improvements in .NET Core 3.0](https://devblogs.microsoft.com/dotnet/introducing-diagnostics-improvements-in-net-core-3-0/)
 
 - [Collecting and analyzing memory dumps](https://devblogs.microsoft.com/dotnet/collecting-and-analyzing-memory-dumps/)
+
+- [Asymmetric Encryption with RSA](https://www.leapinggorilla.com/blog/Read/1018/asymmetric-encryption-with-rsa)
