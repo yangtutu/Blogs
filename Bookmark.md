@@ -77,3 +77,5 @@
 - [Collecting and analyzing memory dumps](https://devblogs.microsoft.com/dotnet/collecting-and-analyzing-memory-dumps/)
 
 - [Asymmetric Encryption with RSA](https://www.leapinggorilla.com/blog/Read/1018/asymmetric-encryption-with-rsa)
+
+- [how to make a controller action receive text/plain content as a string - which also works in swagger](https://peterdaugaardrasmussen.com/2020/02/29/asp-net-core-how-to-make-a-controller-endpoint-that-accepts-text-plain/)
