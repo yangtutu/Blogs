@@ -1,4 +1,7 @@
-# RESTful
+---
+title: RESTful
+date: 2020-06-27
+---
 
 ## RESTful概述
 
@@ -11,7 +14,7 @@ REST是`Re`presentational `S`tate `T`ransfer的缩写，是Roy Thomas Fielding�
 3. 所有的操作都是无状态的
 4. 使用标准方法（GET、POST、PUT、PATCH、DELETE）操作资源
 
-<br />
+<!--more-->
 
 ## RESTful使用
 
@@ -39,7 +42,6 @@ REST是`Re`presentational `S`tate `T`ransfer的缩写，是Roy Thomas Fielding�
 
 安全性：对该RESTful接口访问，不会使服务端资源的状态发生改变。
 
-<br />
 
 ## 规范建议
 - API尽量采用通过安全通道的HTTPS协议
@@ -71,7 +73,6 @@ REST是`Re`presentational `S`tate `T`ransfer的缩写，是Roy Thomas Fielding�
 
   示例：/common/account/api/v1/users/action/login
 
-<br />
 
 ## 响应消息建议
 
@@ -173,7 +174,6 @@ REST是`Re`presentational `S`tate `T`ransfer的缩写，是Roy Thomas Fielding�
   }
   ```
 
-<br />
 
 ## 常见响应码
 

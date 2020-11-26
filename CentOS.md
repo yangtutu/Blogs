@@ -1,4 +1,7 @@
-# CentOS
+---
+title: CentOS
+date: 2020-07-30
+---
 
 ## yum源
 

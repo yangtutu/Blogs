@@ -1,4 +1,8 @@
-# RabbitMQ
+---
+title: RabbitMQ
+date: 2020-06-06
+description: RabbitMQ安装
+---
 
 ## 安装
 

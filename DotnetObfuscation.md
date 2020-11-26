@@ -1,4 +1,7 @@
-# .Net Obfuscation
+---
+title: Dotnet Obfuscation
+date: 2020-10-13
+---
 
 ## Code Obfuscation
 

@@ -1,4 +1,8 @@
-# Git使用
+---
+title: Git
+date: 2020-06-06
+description: Git基本设置及指令别名
+---
 
 ## 基本设置
 
@@ -14,7 +18,6 @@ git config --global user.name  "{your username}"
 git config --global user.email "{your email}"
 ```
 
-<br />
 
 ## 指令别名
 
@@ -39,7 +42,6 @@ rb = rebase -i
 cp = cherry-pick
 ```
 
-<br />
 
 ## Beyond Compare
 

@@ -1,4 +1,7 @@
-# Jenkins
+---
+title: Jenkins
+date: 2020-08-21
+---
 
 ## CentOS 7 安装
 
