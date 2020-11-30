@@ -1,15 +1,9 @@
 ---
-title: 操作系统及语言国内源配置
+title: 操作系统及开发语言国内源配置
 date: 2020-10-30
 ---
 
 ## Alpine
-
-- 阿里云
-
-  ```bash
-  sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/alpine/g' /etc/apk/repositories
-  ```
 
 - 中科大
 
@@ -17,10 +11,16 @@ date: 2020-10-30
   sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
   ```
 
+- 阿里云
+
+  ```bash
+  sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
+  ```
+
 - 清华TUNA
 
   ```bash
-  sed -i 's/dl-cdn.alpinelinux.org/mirror.tuna.tsinghua.edu.cn/alpine/g' /etc/apk/repositories
+  sed -i 's/dl-cdn.alpinelinux.org/mirror.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
   ```
 
 <!--more-->
