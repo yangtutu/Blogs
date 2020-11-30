@@ -4,11 +4,11 @@ date: 2020-11-27
 ---
 
 ## AES-GCM
-AES是一种对称加密算法。
+&emsp;&emsp;AES是一种对称加密算法。
 
-GCM (Galois/Counter Mode) 指的是该对称加密采用Counter模式，并带有GMAC消息认证码。
+&emsp;&emsp;GCM (Galois/Counter Mode) 指的是该对称加密采用Counter模式，并带有GMAC消息认证码。
 
-更多信息可参阅：<https://juejin.cn/post/6844904122676690951>
+&emsp;&emsp;更多信息可参阅：<https://juejin.cn/post/6844904122676690951>
 
 ## .Net 5 AES-GCM
 
