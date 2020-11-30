@@ -87,6 +87,10 @@ date: 2020-07-18
   docker pull ccr.ccs.tencentyun.com/erik_xu/dotnet-interactive:5.0.100
   ```
 
+- Example
+  
+  <https://github.com/ErikXu/Blogs/blob/master/ipynb/HelloWorld.ipynb>
+
 - Github source
 
   <https://github.com/dotnet/interactive>
