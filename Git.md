@@ -1,7 +1,6 @@
 ---
-title: Git
+title: Git基本设置及指令别名
 date: 2020-06-06
-description: Git基本设置及指令别名
 ---
 
 ## 基本设置
@@ -18,6 +17,7 @@ git config --global user.name  "{your username}"
 git config --global user.email "{your email}"
 ```
 
+<!--more-->
 
 ## 指令别名
 

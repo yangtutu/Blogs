@@ -1,7 +1,6 @@
 ---
-title: Bookmark
-date: 2020-10-20
-description: Bookmark
+title: 我的书签
+date: 2019-10-20
 ---
 
 - [OpenStack Docs](https://docs.openstack.org/api-ref/identity/v3/index.html)
@@ -15,6 +14,8 @@ description: Bookmark
 - [Envoy](https://www.envoyproxy.io/)
 
 - [如何优雅的设计和使用缓存？](https://juejin.im/post/5b849878e51d4538c77a974a)
+
+<!--more-->
 
 - [Redis缓存你必须了解的！](https://zhuanlan.zhihu.com/p/48080173)
 

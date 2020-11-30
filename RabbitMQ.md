@@ -1,7 +1,6 @@
 ---
-title: RabbitMQ
+title: RabbitMQ安装(Linux及Windows)
 date: 2020-06-06
-description: RabbitMQ安装
 ---
 
 ## 安装
@@ -27,6 +26,8 @@ description: RabbitMQ安装
   ```
 
 - Windows
+
+<!--more-->
 
   ```shell
   # Install Elang

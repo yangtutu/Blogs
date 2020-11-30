@@ -20,6 +20,8 @@ GCM (Galois/Counter Mode) 指的是该对称加密采用Counter模式，并带�
   var tag = GetRandomBytes(System.Security.Cryptography.AesGcm.TagByteSizes.MaxSize);
   ```
 
+<!--more-->
+
 - 加密
 
   ```csharp

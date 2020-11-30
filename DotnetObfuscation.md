@@ -1,5 +1,5 @@
 ---
-title: Dotnet Obfuscation
+title: .Net Core混淆
 date: 2020-10-13
 ---
 
@@ -14,6 +14,8 @@ date: 2020-10-13
   - [8 Ways To Protect And Obfuscate Your .Net Code Against Reverse-Engineering Using Crypto Obfuscator](https://www.ssware.com/articles/protect-and-obfuscate-your-dotnet-code-against-reverse-engineering-using-crypto-obfuscator.htm)
 
   - [Babel Obfuscation and Protection](https://www.babelfor.net/products/babel-obfuscator/)
+
+<!--more-->
 
 - Feature Comparation
 

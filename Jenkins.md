@@ -1,5 +1,5 @@
 ---
-title: Jenkins
+title: Jenkins安装及配置
 date: 2020-08-21
 ---
 
@@ -21,6 +21,8 @@ vi /etc/sysconfig/jenkins
 # 监听端口
 JENKINS_PORT="8080"
 ```
+
+<!--more-->
 
 - 配置权限
 
@@ -54,13 +56,15 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 
 - 修改插件源
 
-点击`Manage Jenkins` -> 点击`Manage Plugins` -> 点击`Advanced` -> 把`Update Site`中的`URL`修改为`http://mirror.esuni.jp/jenkins/updates/update-center.json`
-
-原值为：`https://updates.jenkins.io/update-center.json`
+  `Manage Jenkins` -> `Manage Plugins` -> `Advanced`
+  修改`Update Site`中的`URL`为`http://mirror.esuni.jp/jenkins/updates/update-center.json`
+  原值为：`https://updates.jenkins.io/update-center.json`
 
 - 添加环境变量PATH
 
-点击`Manage Jenkins` -> 点击`Configure System` -> 在`Global properties`下勾选`Environment variables`，添加以下内容
+  `Manage Jenkins` -> `Configure System`
+  在`Global properties`下勾选`Environment variables`，添加以下内容：
 
-Name: PATH  
-Value: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/.dotnet/tools:/root/bin
+  | Name | Value |
+  | ------- | ------- |
+  | PATH | /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/.dotnet/tools:/root/bin |

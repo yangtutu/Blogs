@@ -1,6 +1,7 @@
 ---
 title: .Net Core Interactive for Jupyter Lab
 date: 2020-07-18
+description: .Net Core Interactive for Jupyter Lab
 ---
 
 - Dockerfile
@@ -69,19 +70,19 @@ date: 2020-07-18
   # ENTRYPOINT jupyter lab --ip=0.0.0.0  --allow-root  --notebook-dir=/notebooks/ --NotebookApp.token='' --NotebookApp.password='argon2:$argon2id$v=19$m=10240,t=10,p=8$hAlhdgmrY2LfZ1cfY8rZ0w$c6ja5KNbPVlZVjAqU770Tg'
   ```
 
-- Build image
+- Build Image
 
   ```bash
   docker build . --tag dotnet-interactive:5.0.100
   ```
 
-- Run the container
+- Run the Container
 
   ```bash
   docker run --rm -it -p 8888:8888 -p 1100-1200:1100-1200 --name dotnet-interactive-image dotnet-interactive:5.0.100
   ```
 
-- Available image
+- Available Image
 
   ```bash
   docker pull ccr.ccs.tencentyun.com/erik_xu/dotnet-interactive:5.0.100
@@ -91,6 +92,6 @@ date: 2020-07-18
   
   <https://github.com/ErikXu/Blogs/blob/master/ipynb/HelloWorld.ipynb>
 
-- Github source
+- Github Source
 
   <https://github.com/dotnet/interactive>
