@@ -84,3 +84,5 @@ date: 2019-10-20
 - [Asymmetric Encryption with RSA](https://www.leapinggorilla.com/blog/Read/1018/asymmetric-encryption-with-rsa)
 
 - [how to make a controller action receive text/plain content as a string - which also works in swagger](https://peterdaugaardrasmussen.com/2020/02/29/asp-net-core-how-to-make-a-controller-endpoint-that-accepts-text-plain/)
+
+- [Postgres backups: Logical vs. Physical an overview](https://www.craigkerstiens.com/2017/09/03/postgres-backups-physical-vs-logical/)
