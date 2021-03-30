@@ -17,3 +17,4 @@ description: Golang 学习自检表
 | RabbitMQ 使用 |  |  |  |
 | 配置管理 |  |  | https://github.com/spf13/viper |
 | 网络编程 |  |  |  |
+| FAQ |  |  | https://golang.org/doc/faq |
