@@ -4,7 +4,7 @@ date: 2021-05-27
 ---
 
 ## 简介
-Nginx 除了可以代理 HTTP 以外，其实还可以转发 TCP / UDP，但之前的版本需要通过源码编译安装 Nginx 的时候启用 Stream 模块，但是新版本的 Nginx 默认已经启用了 Stream 模块。 
+Nginx 除了可以代理 HTTP 以外，其实还可以转发 TCP / UDP，但之前的版本需要通过源码编译安装 Nginx 的时候启用 Stream 模块，目前新版本的 Nginx 默认已经启用了 Stream 模块。 
 
 <!--more-->
 
