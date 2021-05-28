@@ -1,11 +1,8 @@
 ---
 title: 使用 STS 临时访问凭证访问 OSS
 date: 2021-05-28
+description: 使用 STS 临时访问凭证访问 OSS
 ---
-
-使用 STS 临时访问凭证访问 OSS
-
-<!--more-->
 
 ## 基本配置
 
