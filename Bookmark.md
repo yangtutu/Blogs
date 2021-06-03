@@ -86,3 +86,5 @@ date: 2019-10-20
 - [how to make a controller action receive text/plain content as a string - which also works in swagger](https://peterdaugaardrasmussen.com/2020/02/29/asp-net-core-how-to-make-a-controller-endpoint-that-accepts-text-plain/)
 
 - [Postgres backups: Logical vs. Physical an overview](https://www.craigkerstiens.com/2017/09/03/postgres-backups-physical-vs-logical/)
+
+- [基于WASM的无侵入式全链路A/B Test实践](https://developer.aliyun.com/article/782181?spm=a2c4g.11186623.2.13.48933721MKTyJg)
