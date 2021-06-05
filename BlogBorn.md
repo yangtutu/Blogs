@@ -54,3 +54,51 @@ hexo server
 ``` 
 
 打开 http://localhost:4000/ 即可查看效果
+
+
+## 发布到阿里云 OSS
+
+- 在 OSS 中使用自定义域名设置静态网站托管
+
+  https://help.aliyun.com/document_detail/67323.html?spm=a2c4g.11186623.6.730.50c023eb1ZuMnl
+
+- 下载和安装命令行工具 ossutil
+
+  https://help.aliyun.com/document_detail/120075.htm?spm=a2c4g.11186623.2.4.cece7a74wf2KXC#title-mjl-h5v-cvl
+
+
+
+- 准备初始化脚本 `init.sh`， 存放在 `blog-holder` 目录下
+
+``` bash
+#!/bin/bash
+
+npm install
+
+git clone {你的 git 地址} source/_posts
+
+git clone https://github.com/theme-next/hexo-theme-next themes/next
+``` 
+
+- 执行初始化脚本 `init.sh`
+
+``` bash
+bash init.sh
+``` 
+
+- 准备编译脚本 `build.sh`， 存放在 `blog-holder` 目录下
+
+``` bash
+#!/bin/bash
+
+cd source/_posts 
+git pull
+cd ../../
+
+cd themes/next
+git pull
+cd ../../
+
+hexo clean
+hexo generate
+``` 
