@@ -1,9 +1,9 @@
 ---
-title: RabbitMQ安装(Linux及Windows)
+title: RabbitMQ Installation (Linux & Windows)
 date: 2020-06-06
 ---
 
-## 安装
+## Installation
 
 - CentOS
 
