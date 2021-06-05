@@ -91,6 +91,8 @@ bash init.sh
 ``` bash
 #!/bin/bash
 
+npm install
+
 cd source/_posts 
 git pull
 cd ../../
@@ -101,4 +103,14 @@ cd ../../
 
 hexo clean
 hexo generate
+``` 
+
+- 使用 Docker 编译项目
+
+``` bash
+docker run --rm -i \
+-v /usr/local/lib/node_modules:/usr/local/lib/node_modules \
+-v $PWD:/root/ \
+node:16-alpine \
+sh /root/build.sh
 ``` 
