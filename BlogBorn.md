@@ -91,15 +91,10 @@ bash init.sh
 ``` bash
 #!/bin/bash
 
-npm install
+cd /root
+rm -rf public/
 
-cd source/_posts 
-git pull
-cd ../../
-
-cd themes/next
-git pull
-cd ../../
+yarn global add hexo-cli
 
 hexo clean
 hexo generate
@@ -108,9 +103,22 @@ hexo generate
 - 使用 Docker 编译项目
 
 ``` bash
-docker run --rm -i \
--v /usr/local/lib/node_modules:/usr/local/lib/node_modules \
--v $PWD:/root/ \
-node:16-alpine \
-sh /root/build.sh
+docker run --rm -i -v $PWD:/root/ node:16-alpine sh /root/build.sh
+``` 
+
+- 准备 OSS 上传脚本 `upload.sh`， 存放在 `blog-holder` 目录下
+
+``` bash
+#!/bin/bash
+
+BUCKET_NAME="{Your bucket name}"
+
+ossutil64 rm oss://$BUCKET_NAME --include "*" --recursive --force --all-type
+ossutil64 cp ./public oss://$BUCKET_NAME --recursive --force
+``` 
+
+- 执行 OSS 上传脚本 `upload.sh`，将博客上传到 OSS
+
+``` bash
+bash upload.sh
 ``` 
