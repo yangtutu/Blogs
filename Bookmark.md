@@ -88,3 +88,5 @@ date: 2019-10-20
 - [Postgres backups: Logical vs. Physical an overview](https://www.craigkerstiens.com/2017/09/03/postgres-backups-physical-vs-logical/)
 
 - [基于WASM的无侵入式全链路A/B Test实践](https://developer.aliyun.com/article/782181?spm=a2c4g.11186623.2.13.48933721MKTyJg)
+
+- [Publish Jenkins HTML Reports for Newman](https://www.toolsqa.com/postman/publish-jenkins-html-reports-for-newman/)
