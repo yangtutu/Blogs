@@ -90,3 +90,7 @@ date: 2019-10-20
 - [基于WASM的无侵入式全链路A/B Test实践](https://developer.aliyun.com/article/782181?spm=a2c4g.11186623.2.13.48933721MKTyJg)
 
 - [Publish Jenkins HTML Reports for Newman](https://www.toolsqa.com/postman/publish-jenkins-html-reports-for-newman/)
+
+- [Adding experimental WebAssembly support to Decaton – Part 1](https://engineering.linecorp.com/en/blog/adding-experimental-webassembly-support-to-decaton-part-1/)
+
+- [Adding experimental WebAssembly support to Decaton – Part 2](https://engineering.linecorp.com/en/blog/adding-experimental-webassembly-support-to-decaton-part-2/)
