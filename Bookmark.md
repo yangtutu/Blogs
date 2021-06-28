@@ -94,3 +94,5 @@ date: 2019-10-20
 - [Adding experimental WebAssembly support to Decaton – Part 1](https://engineering.linecorp.com/en/blog/adding-experimental-webassembly-support-to-decaton-part-1/)
 
 - [Adding experimental WebAssembly support to Decaton – Part 2](https://engineering.linecorp.com/en/blog/adding-experimental-webassembly-support-to-decaton-part-2/)
+
+- [Towards sockets and networking in WebAssembly and WASI](https://radu-matei.com/blog/towards-sockets-networking-wasi/)
