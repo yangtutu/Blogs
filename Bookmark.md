@@ -96,3 +96,5 @@ date: 2019-10-20
 - [Adding experimental WebAssembly support to Decaton – Part 2](https://engineering.linecorp.com/en/blog/adding-experimental-webassembly-support-to-decaton-part-2/)
 
 - [Towards sockets and networking in WebAssembly and WASI](https://radu-matei.com/blog/towards-sockets-networking-wasi/)
+
+- [What Is and How Does Single Sign-On Authentication Work?](https://auth0.com/blog/what-is-and-how-does-single-sign-on-work/)
