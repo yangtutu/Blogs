@@ -1,5 +1,5 @@
 ---
-title: [Jenkins] 安装及配置
+title: Jenkins - 安装及配置
 date: 2020-08-21
 ---
 
