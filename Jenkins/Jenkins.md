@@ -1,5 +1,5 @@
 ---
-title: Jenkins安装及配置
+title: [Jenkins] 安装及配置
 date: 2020-08-21
 ---
 
@@ -68,3 +68,18 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
   | Name | Value |
   | ------- | ------- |
   | PATH | /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/.dotnet/tools:/root/bin |
+
+
+## Docker 安装
+
+项目初期或者业务相对简单的话，也可以直接使用 Docker 安装的方式
+
+``` shell
+docker run --name jenkins \
+  -u root \
+  --privileged=true \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v /var/jenkins_home:/var/jenkins_home \
+  -p 8080:8080 -p 50000:50000 \
+  jenkins:2.60.3
+```
