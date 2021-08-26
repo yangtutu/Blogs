@@ -104,3 +104,5 @@ date: 2019-10-20
 - [菜单展示的递归与非递归形式实现](https://xie.infoq.cn/article/92413393a55c71083b023d1f6)
 
 - [Golang tutorial series](https://golangbot.com/learn-golang-series/)
+
+- [The Twelve-Factor App](https://12factor.net/)
