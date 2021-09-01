@@ -106,3 +106,5 @@ date: 2019-10-20
 - [Golang tutorial series](https://golangbot.com/learn-golang-series/)
 
 - [The Twelve-Factor App](https://12factor.net/)
+
+- [Microservice Architecture](https://microservices.io/patterns/microservices.html)
