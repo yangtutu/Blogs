@@ -45,7 +45,7 @@ conflue+ 10346     1 99 13:03 ?        5-05:38:24 /tmp/kdevtmpfsi
 # netstat –natp
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
 ...
-tcp        0      0 xx.xx.xx.xx:41302        95.181.179.88:80        ESTABLISHED 10346/kdevtmpfsi   # 95.181.179.88 为国外 IP
+tcp        0      0 xx.xx.xx.xx:41302       95.181.179.88:80        ESTABLISHED 10346/kdevtmpfsi   # 95.181.179.88 为国外 IP
 ...
 ```
 
