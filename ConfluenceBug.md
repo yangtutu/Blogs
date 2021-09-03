@@ -9,6 +9,7 @@ date: 2021-09-03
 服务器的 CPU 突然被异常进程 `kdevtmpfsi` 占满
 
 ``` bash
+# top
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
 10346 conflue+  20   0 3481244   2.3g    272 S  1196 19.9   6290:48 kdevtmpfsi
 ```
