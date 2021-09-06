@@ -108,3 +108,5 @@ date: 2019-10-20
 - [The Twelve-Factor App](https://12factor.net/)
 
 - [Microservice Architecture](https://microservices.io/patterns/microservices.html)
+
+- [Microservices Patterns](https://livebook.manning.com/book/microservices-patterns/chapter-1/)
