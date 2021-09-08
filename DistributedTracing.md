@@ -32,7 +32,7 @@ description: 使用 Istio 实现 http 及 grpc 链路追踪
 - A 调用 B 的时候，需要把 A 接收的跟踪 http headers 转换成跟踪 grpc metadata 传递给 B
 - B 调用 C 的时候，需要把 A 传递的跟踪 grpc metadata 透传给 C
 
-参考代码：
+示例代码：
 
 - golang 
 
@@ -151,3 +151,23 @@ func main() {
 }
  
 ```
+
+### 参考
+
+#### 阿里云
+https://help.aliyun.com/document_detail/149551.html?spm=a2c4g.11186623.6.626.4fae4204Rydyfa
+https://help.aliyun.com/document_detail/187136.html?spm=a2c4g.11186623.6.635.47944fe5bckB2R
+
+
+#### Golang
+https://github.com/grpc/grpc-go/tree/master/examples
+https://github.com/grpc/grpc-go/blob/master/Documentation/grpc-metadata.md
+https://github.com/AliyunContainerService/hello-servicemesh-grpc/tree/main/hello-grpc-go
+https://www.lixueduan.com/post/tracing/04-jaeger-gin-grpc/
+
+
+
+#### Java
+https://github.com/grpc/grpc-java/tree/master/examples
+https://github.com/yidongnan/grpc-spring-boot-starter
+https://github.com/AliyunContainerService/hello-servicemesh-grpc/tree/main/hello-grpc-java
