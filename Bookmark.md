@@ -114,3 +114,9 @@ date: 2019-10-20
 - [CentOS搭建代理服务器](https://www.cnblogs.com/6324/p/12516047.html)
 
 - [kubebiz](https://www.kubebiz.com/)
+
+- [Key metrics for monitoring Istio](https://www.datadoghq.com/blog/istio-metrics/)
+
+- [Istio monitoring tools](https://www.datadoghq.com/blog/istio-monitoring-tools/)
+
+- [How to monitor Istio with Datadog](https://www.datadoghq.com/blog/istio-datadog/)
